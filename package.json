@@ -1,4 +1,5 @@
 {
+  "homepage": "http://tawsife3ds.github.io/e3ds/unzipit-react-app",
   "name": "unzipit-react-app",
   "version": "0.1.0",
   "private": true,
@@ -9,12 +10,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "unzipit": "^1.4.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "build:secured": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build:nosourcemap": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
