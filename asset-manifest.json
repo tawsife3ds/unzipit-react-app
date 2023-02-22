@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/unzipit-react-app/static/css/main.c0dcd72f.css",
+    "main.js": "/unzipit-react-app/static/js/main.644ee9b7.js",
+    "static/js/787.b55366f5.chunk.js": "/unzipit-react-app/static/js/787.b55366f5.chunk.js",
+    "index.html": "/unzipit-react-app/index.html",
+    "main.c0dcd72f.css.map": "/unzipit-react-app/static/css/main.c0dcd72f.css.map",
+    "main.644ee9b7.js.map": "/unzipit-react-app/static/js/main.644ee9b7.js.map",
+    "787.b55366f5.chunk.js.map": "/unzipit-react-app/static/js/787.b55366f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0dcd72f.css",
+    "static/js/main.644ee9b7.js"
+  ]
+}
